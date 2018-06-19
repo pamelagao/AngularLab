@@ -1,0 +1,9 @@
+<p>
+  api works!
+</p>
+
+<div *ngIf="apis">
+  <ol *ngFor="let a of apis">
+    <li>ID: {{ a.id }} Key: {{ a.api_key }}</li>
+  </ol>
+</div>
